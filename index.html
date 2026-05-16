@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/4e59238a8a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!--===== HEADER =====-->
     <header class="l-header">
@@ -16,16 +18,18 @@
             <div>
                 <a href="#" class="nav__logo">UT</a>
             </div>
-            
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class=" nav__link nav-link home">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link nav-link about">About</a></li>
-                    <li class="nav__item"><a href="#experience" class="nav__link nav-link experience">Experience</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link nav-link experience">Experience</a>
+                    </li>
                     <li class="nav__item"><a href="#skills" class="nav__link nav-link skills">Skills</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link nav-link projects">Projects</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link nav-link contact">Contact</a></li>
-                    <li class="nav__item"><a href="#resume"  id="resume-button-1" class="nav__link nav-link resume">Resume</a></li>
+                    <li class="nav__item"><a href="#resume" id="resume-button-1"
+                            class="nav__link nav-link resume">Resume</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
@@ -35,58 +39,84 @@
     </header>
     <main class="l-main">
         <!--===== HOME =====-->
-       
+
         <section id="home" class="home section bd-grid">
             <div class="home__data" id="user-detail-name">
-                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Utkarash</span><br>Backend Developer</h1>
-               
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Utkarash</span><br>Backend Developer
+                </h1>
+
                 <!-- <a href="https://drive.google.com/uc?id=1wsIkYOtQDPosKaJSgCdIqgqOMdNi8xPl&export=download" id="resume-button-2" class="button">Resume</a> -->
                 <button id="resume-button-2" class="button">Resume</button>
             </div>
 
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/utkarash-thakur/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/utkarash-thakur" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="mailto:utkarash3319@gmail.com" target="_blank" class="home__social-icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/utkarash-thakur/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/utkarash-thakur" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="mailto:utkarsh3319@gmail.com" target="_blank" class="home__social-icon"><i
+                        class="fa-solid fa-envelope"></i></a>
             </div>
 
             <div class="home__img">
-                <img   width="100%"  style="border-radius: 20px;margin: auto;" src="./assets/img/gif.gif" alt="" class="home-img">
+                <img width="100%" style="border-radius: 20px;margin: auto;" src="./assets/img/gif.gif" alt=""
+                    class="home-img">
             </div>
         </section>
         <!--===== ABOUT =====-->
         <section id="about" class="about section">
-    <h2 class="section-title">About</h2>
+            <h2 class="section-title">About</h2>
 
-    <div class="about__container bd-grid">
-        <div class="about__img">
-            <img src="assets/img/image_2.png" class="home-img">
-        </div>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/image_2.png" class="home-img">
+                </div>
 
-        <div>
-            <h2 class="about__subtitle">I am Utkarash Thakur</h2>
-            <p class="about__text" id="user-detail-intro">Java Backend Developer with 2+ years of professional experience designing and developing scalable, high-throughput backend systems. Experienced in building communication platforms, event-driven architectures, and vendor integration frameworks. Proficient in Java, Spring Boot, Kafka, and Redis, with hands-on experience leading small teams and owning end-to-end feature delivery. Focused on writing clean, testable code and building reliable, impactful systems.</p>
-        </div>
-    </div>
-</section>
+                <div>
+                    <h2 class="about__subtitle">I am Utkarash Thakur</h2>
+                    <p class="about__text" id="user-detail-intro">Java Backend Developer with 2+ years of professional
+                        experience designing and developing scalable, high-throughput backend systems. Experienced in
+                        building communication platforms, event-driven architectures, and vendor integration frameworks.
+                        Proficient in Java, Spring Boot, Kafka, and Redis, with hands-on experience leading small teams
+                        and owning end-to-end feature delivery. Focused on writing clean, testable code and building
+                        reliable, impactful systems.</p>
+                </div>
+            </div>
+        </section>
 
         <!--===== EXPERIENCE =====-->
         <section id="experience" class="experience section">
             <h2 class="section-title">Work Experience</h2>
             <div class="bd-grid">
-                <div class="experience__container" style="background-color: rgb(236, 236, 236); padding: 20px; border-radius: 10px; box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);">
-                    <h3 class="experience__title" style="color: var(--first-color); font-size: 1.25rem; font-weight: 600; margin-bottom: 5px;">Software Engineer</h3>
-                    <h4 class="experience__company" style="font-size: 1rem; font-weight: 500; margin-bottom: 10px; color: #333;">Hyperface Technologies Private Limited, Jaipur, Rajasthan | March 2024 – Present</h4>
-                    <ul class="experience__list" style="list-style-type: disc; margin-left: 20px; font-size: 14px; line-height: 1.6;">
-                        <li style="margin-bottom: 8px;">Managing and mentoring a team of 2 engineers while owning end-to-end delivery of key platform features.</li>
-                        <li style="margin-bottom: 8px;">Designed and developed a plug-and-play integration framework enabling banks to easily onboard and manage multiple vendor integrations.</li>
-                        <li style="margin-bottom: 8px;">Own and manage a high-throughput communication platform delivering bulk and single notifications to up to 3 lakh users across Email, SMS, and WhatsApp.</li>
-                        <li style="margin-bottom: 8px;">Implemented Kafka-based asynchronous processing to handle delivery and user-interaction callbacks at scale.</li>
-                        <li style="margin-bottom: 8px;">Designing and developing an event-driven communication system triggering personalized reminders across multiple channels.</li>
-                        <li style="margin-bottom: 8px;">Developed a vendor-agnostic voucher lifecycle and inventory system integrating 9 third-party vendors, reducing external API calls by 90%.</li>
-                        <li style="margin-bottom: 8px;">Integrated multiple third-party APIs secured using JWT-based authentication and filter-level audit logging.</li>
-                        <li style="margin-bottom: 8px;">Optimized complex SQL queries and reduced redundant API calls by 40% using Redis caching.</li>
-                        <li style="margin-bottom: 8px;">Achieved 90% unit test coverage and documented 80% of APIs using Swagger and Postman/Bruno collections.</li>
+                <div class="experience__container"
+                    style="background-color: rgb(236, 236, 236); padding: 20px; border-radius: 10px; box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);">
+                    <h3 class="experience__title"
+                        style="color: var(--first-color); font-size: 1.25rem; font-weight: 600; margin-bottom: 5px;">
+                        Software Engineer</h3>
+                    <h4 class="experience__company"
+                        style="font-size: 1rem; font-weight: 500; margin-bottom: 10px; color: #333;">Hyperface
+                        Technologies Private Limited, Jaipur, Rajasthan | March 2024 – Present</h4>
+                    <ul class="experience__list"
+                        style="list-style-type: disc; margin-left: 20px; font-size: 14px; line-height: 1.6;">
+                        <li style="margin-bottom: 8px;">Managing and mentoring a team of 2 engineers while owning
+                            end-to-end delivery of key platform features.</li>
+                        <li style="margin-bottom: 8px;">Designed and developed a plug-and-play integration framework
+                            enabling banks to easily onboard and manage multiple vendor integrations.</li>
+                        <li style="margin-bottom: 8px;">Own and manage a high-throughput communication platform
+                            delivering bulk and single notifications to up to 3 lakh users across Email, SMS, and
+                            WhatsApp.</li>
+                        <li style="margin-bottom: 8px;">Implemented Kafka-based asynchronous processing to handle
+                            delivery and user-interaction callbacks at scale.</li>
+                        <li style="margin-bottom: 8px;">Designing and developing an event-driven communication system
+                            triggering personalized reminders across multiple channels.</li>
+                        <li style="margin-bottom: 8px;">Developed a vendor-agnostic voucher lifecycle and inventory
+                            system integrating 9 third-party vendors, reducing external API calls by 90%.</li>
+                        <li style="margin-bottom: 8px;">Integrated multiple third-party APIs secured using JWT-based
+                            authentication and filter-level audit logging.</li>
+                        <li style="margin-bottom: 8px;">Optimized complex SQL queries and reduced redundant API calls by
+                            40% using Redis caching.</li>
+                        <li style="margin-bottom: 8px;">Achieved 90% unit test coverage and documented 80% of APIs using
+                            Swagger and Postman/Bruno collections.</li>
                     </ul>
                 </div>
             </div>
@@ -95,12 +125,13 @@
         <!--===== SKILLS =====-->
         <section id="skills" class="skills section">
             <h2 class="section-title">Skills</h2>
-        
+
             <div class="skills__container bd-grid">
                 <div>
                     <h2 class="skills__subtitle">Tech Skills</h2>
-                    <p class="skills__text">Hand of good experience in front-end technologies and back-end technologies.</p>
-                    
+                    <p class="skills__text">Hand of good experience in front-end technologies and back-end technologies.
+                    </p>
+
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
                             <i class='bx bxl-html5 skills__icon'></i>
@@ -109,7 +140,7 @@
                         </div>
                         <div class="skills__bar skills__html"></div>
                     </div>
-                    
+
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
                             <i class='bx bxl-css3 skills__icon'></i>
@@ -118,7 +149,7 @@
                         </div>
                         <div class="skills__bar skills__css"></div>
                     </div>
-                    
+
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
                             <i class='bx bxl-javascript skills__icon'></i>
@@ -135,24 +166,28 @@
                         </div>
                         <div class="skills__bar skills__java"></div>
                     </div>
-                    
+
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
-                            <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" style="fill:hsl(var(--hue-color), 49%, 42%);display:flex;align-items: center;">
-                                <path class="skills__icon" d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596"></path>
+                            <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                style="fill:hsl(var(--hue-color), 49%, 42%);display:flex;align-items: center;">
+                                <path class="skills__icon"
+                                    d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596">
+                                </path>
                             </svg>
                             <img src="" alt="" style="display: none;" class="skills-card-img">
                             <span class="skills__name">Spring-Boot</span>
                         </div>
                         <div class="skills__bar skills__spring"></div>
                     </div>
-                    
+
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
-                            <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50" style="fill:hsl(var(--hue-color), 49%, 42%);">
+                            <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40"
+                                height="40" viewBox="0 0 50 50" style="fill:hsl(var(--hue-color), 49%, 42%);">
                                 <path class="skills__icon"
-        d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596">
-    </path>
+                                    d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596">
+                                </path>
                             </svg>
                             <img src="" alt="" style="display: none;" class="skills-card-img">
                             <span class="skills__names skills__name">SQL/MYSQL</span>
@@ -161,7 +196,7 @@
                     </div>
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
-                          <img src="./assets/img/openai-icon.svg" alt="" class="skills__icon" width="6%">
+                            <img src="./assets/img/openai-icon.svg" alt="" class="skills__icon" width="6%">
                             <span class="skills__name skills__name">GenerativeAI</span>
                         </div>
                         <div class="skills__bar skills__java"></div>
@@ -209,7 +244,7 @@
                         <div class="skills__bar skills__java"></div>
                     </div>
                 </div>
-                
+
                 <div>
                     <h2 class="skills__subtitle">Tech Tools</h2>
                     <p class="skills__text">Hand of good experience with tech tools</p>
@@ -225,7 +260,8 @@
 
                     <div class="skills__data skills-card">
                         <div class="skills-card-name skills__names">
-                          <img src="./assets/img/postman-icon-svgrepo-com (1).svg" alt="" class="skills__icon" width="4%">
+                            <img src="./assets/img/postman-icon-svgrepo-com (1).svg" alt="" class="skills__icon"
+                                width="4%">
                             <span class="skills__name skills__name">Postman</span>
                         </div>
                         <div class="skills__bar skills__java"></div>
@@ -259,39 +295,42 @@
                         <div class="skills__bar skills__java"></div>
                     </div>
                 </div>
-        
+
                 <div>
                     <img src="" alt="" class="skills__img">
                 </div>
             </div>
         </section>
-        
-       
+
+
         <!--===== PROJECTS =====-->
-        <section  id ="projects" class="work section" >
+        <section id="projects" class="work section">
             <h2 class="section-title">Projects</h2>
 
             <div class="work__container bd-grid">
 
-                
+
                 <div class="project-card">
                     <div class="right_box_work">
                         <a href="" class="work__img">
-                            <img src="assets/img/traverse.png" alt="" >
+                            <img src="assets/img/traverse.png" alt="">
                         </a>
                     </div>
                     <div class="left_box_work">
                         <div class="work_project_name">
                             <h2 class="project-heading project-title ">Traverse Travel Website</h2>
                         </div>
-                        <p class="project-para project-description">Traverse Travel Website offers users an intuitive platform for exploring and booking holiday destinations. With interactive filtering, a seamless booking process, and a secure payment system, users can effortlessly plan and track their travel experiences. 
+                        <p class="project-para project-description">Traverse Travel Website offers users an intuitive
+                            platform for exploring and booking holiday destinations. With interactive filtering, a
+                            seamless booking process, and a secure payment system, users can effortlessly plan and track
+                            their travel experiences.
                         </p>
                         <a class="project-github-link" style="display:inline-block;margin-right: 20px;"
                             href="https://github.com/utkarash-thakur/frail-show-474" target="_blank">Code<i
                                 class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
                         <a class="project-deployed-link" style="display:inline-block;margin-right: 20px;"
-                            href="https://travasure.netlify.app/"
-                            target="_blank">Live<i class="fa-solid fa-square-arrow-up-right"
+                            href="https://travasure.netlify.app/" target="_blank">Live<i
+                                class="fa-solid fa-square-arrow-up-right"
                                 style="display: block-inline;margin-left:5px"></i></a>
                         <div class="project-tech-stack">
                             <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">Java-Script
@@ -302,13 +341,13 @@
                     </div>
 
                 </div>
-             
 
-             
-                <div class="project-card" >
+
+
+                <div class="project-card">
                     <div class="right_box_work">
                         <a href="" class="work__img">
-                            <img src="./assets/img/Screenshot 2023-08-22 123938.png" alt="">
+                            <img src="/assets/img/Screenshot 2023-08-22 123938.png" alt="">
                         </a>
                     </div>
                     <div class="left_box_work">
@@ -316,56 +355,64 @@
                             <h2 class="project-heading project-title">ShowTime Central</h2>
                         </div>
                         <p class="project-para project-description">
-                            ShowTime Central simplifies event discovery and booking, offering customers an easy-to-use platform to browse, book, and manage events. Event organizers benefit from streamlined event management, while administrators ensure system security and smooth operations. Enjoy a hassle-free event booking experience with ShowTime Central.</p>
-                        <a  class="project-github-link" style="display:inline-block;margin-right: 20px;"
+                            ShowTime Central simplifies event discovery and booking, offering customers an easy-to-use
+                            platform to browse, book, and manage events. Event organizers benefit from streamlined event
+                            management, while administrators ensure system security and smooth operations. Enjoy a
+                            hassle-free event booking experience with ShowTime Central.</p>
+                        <a class="project-github-link" style="display:inline-block;margin-right: 20px;"
                             href="https://github.com/utkarash-thakur/precious-plate-5541" target="_blank">Code<i
                                 class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
                         <a class="project-deployed-link" style="display:inline-block;margin-right: 20px;"
-                            href="https://drive.google.com/file/d/1ir_4FHIG1CbxZtCiikU77cLWPK4MuTpJ/view?usp=sharing" target="_blank">Live<i
-                                class="fa-solid fa-square-arrow-up-right" style="display: block-inline;margin-left:5px"></i></a>
+                            href="https://drive.google.com/file/d/1ir_4FHIG1CbxZtCiikU77cLWPK4MuTpJ/view?usp=sharing"
+                            target="_blank">Live<i class="fa-solid fa-square-arrow-up-right"
+                                style="display: block-inline;margin-left:5px"></i></a>
                         <div class="project-tech-stack">
                             <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">JAVA
                             </p>
-                           
-                            
+
+
                         </div>
                     </div>
 
                 </div>
-            
-               
-                <div  class="project-card" >
-                        <div class="right_box_work">
-                            <a href="" class="work__img">
-                                <img src="./assets/img/fastkar222.png" alt="">
-                            </a>
+
+
+                <div class="project-card">
+                    <div class="right_box_work">
+                        <a href="" class="work__img">
+                            <img src="/assets/img/fastkar222.png" alt="">
+                        </a>
+                    </div>
+                    <div class="left_box_work">
+                        <div class="work_project_name">
+                            <h2 class="project-heading project-title">Car Rental System</h2>
                         </div>
-                        <div class="left_box_work">
-                            <div class="work_project_name">
-                                <h2 class="project-heading project-title">Car Rental System</h2>
-                            </div>
-                            <p class="project-para project-description">Develop a Java-based Car Rental System to facilitate customers in searching, reserving, modifying, and canceling car reservations, while also providing administrative tools for car and customer management, as well as generating usage and revenue reports.</p>
-                            <a  class="project-github-link" style="display:inline-block;margin-right: 20px;"
-                                href="https://github.com/utkarash-thakur/pleasant-summer-812" target="_blank">Code<i
-                                    class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
-                            <a class="project-deployed-link" style="display:inline-block;margin-right: 20px;"
-                                href="https://drive.google.com/file/d/1CqFE3W7jJLNVlzmGRvNG2ap38vogHG-a/view?usp=sharing" target="_blank">Live<i
-                                    class="fa-solid fa-square-arrow-up-right" style="display: block-inline;margin-left:5px"></i></a>
-                            <div class="project-tech-stack">
-                                <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">JAVA
-                                </p>
-                                <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">MYSQL
-                                </p>
-                                <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">HIBERNATE
-                                </p>
-                               
-                            </div>
+                        <p class="project-para project-description">Develop a Java-based Car Rental System to facilitate
+                            customers in searching, reserving, modifying, and canceling car reservations, while also
+                            providing administrative tools for car and customer management, as well as generating usage
+                            and revenue reports.</p>
+                        <a class="project-github-link" style="display:inline-block;margin-right: 20px;"
+                            href="https://github.com/utkarash-thakur/pleasant-summer-812" target="_blank">Code<i
+                                class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
+                        <a class="project-deployed-link" style="display:inline-block;margin-right: 20px;"
+                            href="https://drive.google.com/file/d/1CqFE3W7jJLNVlzmGRvNG2ap38vogHG-a/view?usp=sharing"
+                            target="_blank">Live<i class="fa-solid fa-square-arrow-up-right"
+                                style="display: block-inline;margin-left:5px"></i></a>
+                        <div class="project-tech-stack">
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">JAVA
+                            </p>
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">MYSQL
+                            </p>
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">HIBERNATE
+                            </p>
+
                         </div>
-    
+                    </div>
+
                 </div>
-                 
-                  
-                <div   class="project-card"  >
+
+
+                <div class="project-card">
                     <div class="right_box_work">
                         <a href="" class="work__img">
                             <img src="./assets/img/Screenshot 2023-09-18 102437.png" alt="">
@@ -375,13 +422,17 @@
                         <div class="work_project_name">
                             <h2 class="project-heading project-title">Wondr Word</h2>
                         </div>
-                        <p class="project-para project-description">Wondr Wrod, the amusement park web application, built with Java Spring Boot, HTML, CSS, and JavaScript, helps visitors to plan their trip, purchase tickets for different activities , and learn about park attractions. It features user authentication, user-friendly interfaces.</p>
-                        <a  class="project-github-link" style="display:inline-block;margin-right: 20px;"
+                        <p class="project-para project-description">Wondr Wrod, the amusement park web application,
+                            built with Java Spring Boot, HTML, CSS, and JavaScript, helps visitors to plan their trip,
+                            purchase tickets for different activities , and learn about park attractions. It features
+                            user authentication, user-friendly interfaces.</p>
+                        <a class="project-github-link" style="display:inline-block;margin-right: 20px;"
                             href="https://github.com/utkarash-thakur/bouncy-invention-713" target="_blank">Code<i
                                 class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
                         <a class="project-deployed-link" style="display:inline-block;margin-right: 20px;"
-                            href="https://drive.google.com/file/d/1jaPAvj3k7FICQKdZtB0U9cO4cumykhHN/view?usp=sharing" target="_blank">Live<i
-                                class="fa-solid fa-square-arrow-up-right" style="display: block-inline;margin-left:5px"></i></a>
+                            href="https://drive.google.com/file/d/1jaPAvj3k7FICQKdZtB0U9cO4cumykhHN/view?usp=sharing"
+                            target="_blank">Live<i class="fa-solid fa-square-arrow-up-right"
+                                style="display: block-inline;margin-left:5px"></i></a>
                         <div class="project-tech-stack">
                             <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">JAVA
                             </p>
@@ -393,15 +444,15 @@
                     </div>
 
                 </div>
-                
+
             </div>
-               
-            
+
+
         </section>
 
         <!-- ================================GITHUB=================================== -->
-          <section>
-          <!--  <h2 class="section-title" style="text-align:center;margin-bottom: 80px;margin-top: 50px;">Github Statitics</h2>
+        <section>
+            <!--  <h2 class="section-title" style="text-align:center;margin-bottom: 80px;margin-top: 50px;">Github Statitics</h2>
             <p align="left">
             <p align="center" style="width:70%;margin:auto;">
               <img width="60%" id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=utkarash-thakur&show_icons=true&theme=default" />
@@ -411,30 +462,30 @@
             
            -->
 
-           
-  
-           
+
+
+
 
             <!-- Prepare a container for your calendar. -->
-              <!--
+            <!--
             <h2 class="section-title" style="text-align:center;margin-bottom: 20px;margin-top: 20px;">Github Calendar</h2>
 
             <div class="calendar" style="width: 75%;margin:auto;margin-top: 10px;box-sizing: border-box; text-align: center;">
 
         <img style="width: 100%; text-align: center; height: auto;" src="https://ghchart.rshah.org/1c9248/utkarash-thakur" alt="utkarash-thakur Github chart" />
           -->
-    </div>
-
-    
+            </div>
 
 
 
 
-                        </section>
-                        <!--===== CONTACT =====-->
-                        <section class="contact section" >
 
-                            <!-- <h2 class="section-title">Have an idea ?</h2>
+
+        </section>
+        <!--===== CONTACT =====-->
+        <section class="contact section">
+
+            <!-- <h2 class="section-title">Have an idea ?</h2>
                             <a href="#footer" style="text-align: center;
                                 display: block;
                                 font-style: italic;
@@ -453,12 +504,12 @@
                                             class="fa-regular fa-paper-plane"></i></button>
                                 </form>
                             </div> -->
-                        </section>
+        </section>
 
     </main>
-    
+
     <!--===== FOOTER =====-->
-    <section id="contact" class="footer" id="footer" >
+    <section id="contact" class="footer" id="footer">
         <h2 class="section-title">Have an idea ?</h2>
         <a href="#footer" style="text-align: center;
             display: block;
@@ -470,15 +521,15 @@
             font-weight:100;margin-top: 0px;
             margin-bottom: 20px;">Let's connect!</a>
         <div class="footer__social">
-            <a  id="contact-linkedin" href="https://www.linkedin.com/in/utkarash-thakur/" target="_blank" class="footer__icon"><i
-                    class='bx bxl-linkedin'></i></a>
+            <a id="contact-linkedin" href="https://www.linkedin.com/in/utkarash-thakur/" target="_blank"
+                class="footer__icon"><i class='bx bxl-linkedin'></i></a>
             <a id="contact-github" href="https://github.com/utkarash-thakur" target="_blank" class="footer__icon"><i
                     class='bx bxl-github'></i></a>
 
-            <a id="contact-email" href="mailto:utkarash3319@gmail.com"
-                target="_blank" class="footer__icon"><i class="fa-solid fa-envelope"></i>
+            <a id="contact-email" href="mailto:utkarash3319@gmail.com" target="_blank" class="footer__icon"><i
+                    class="fa-solid fa-envelope"></i>
             </a>
-            
+
         </div>
         <p class="footer__copy">&#169; Created by Utkarash</p>
     </section>
@@ -486,10 +537,11 @@
 </body>
 
 
- <!--===== SCROLL REVEAL =====-->
- <script src="https://unpkg.com/scrollreveal"></script>
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
 
- 
- <!--===== MAIN JS =====-->
- <script src="./main.js"></script>
+
+<!--===== MAIN JS =====-->
+<script src="./main.js"></script>
+
 </html>
